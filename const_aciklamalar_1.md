@@ -267,7 +267,7 @@ int main()
 ```
 
 ### left-const  right-const
-Son yıllarda (ben sevmesem ve benimsemesem de) left-const, right-const terimlerinin kullanılması da popüler hale geldi:
+Son yıllarda (ben sevmesem ve benimsemesem de) _left-const veright-const_ terimlerinin kullanılması da popüler hale geldi:
 
 ```
 int main()
@@ -288,3 +288,10 @@ int main()
 _const_ anahtar sözcüğü _*_ atomunun sağında ise _"right-const"_, <br>
 _const_ anahtar sözcüğü _*_ atomunun solunda ise _"left-const"_ olarak niteleniyor. 
 
+### pointer to pointer ve const
+
+devam edecek
+
+### const adresler ve tür dönüşümleri
+
+### C ve C++ dilleri arasındaki farklılıklar
