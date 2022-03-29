@@ -90,10 +90,9 @@ int main()
 
 	const int *ptr = &x; //ptr is a pointer to const int
         ptr = &y; //geçerli
+        *ptr = 30; //geçersiz
 
-	//int * const ptr = &x;  //ptr is a const pointer to int
-	//*ptr = 90;   //geçersiz
-	//...
+	
 }
 ```
 
