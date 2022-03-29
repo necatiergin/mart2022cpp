@@ -1,8 +1,8 @@
-# Gösterici (pointer) değişkenlerin bildiriminde const anahtar sözcüğünün kullanımı
+## Gösterici (pointer) değişkenlerin bildiriminde const anahtar sözcüğünün kullanımı
 
 C dilinde **const** anahtar sözcüğünün bir pointer değişkenin tanımında kullanıldığı yere bağlı olarak verdiği anlam değişmektedir.
 
-## const anahtar sözcüğünün * (asterisk) atomundan sonra kullanılması
+### const anahtar sözcüğünün * (asterisk) atomundan sonra kullanılması
 
 Aşağıdaki koda bakalım: 
 
@@ -266,4 +266,25 @@ int main()
 }
 ```
 
-__devam edecek__
+### left-const  right-const
+Son yıllarda (ben sevmesem ve benimsemesem de) left-const, right-const terimlerinin kullanılması da popüler hale geldi:
+
+```
+int main()
+{
+	int x = 0;
+	int* const p = &x;
+	//const pointer
+	//top level const
+	//left-const
+
+	const int* p = &x;
+	// pointer to const
+	// low-level const
+	// right const
+}
+```
+
+_const_ anahtar sözcüğü _*_ atomunun sağında ise _"right-const"_, <br>
+_const_ anahtar sözcüğü _*_ atomunun solunda ise _"left-const"_ olarak niteleniyor. 
+
