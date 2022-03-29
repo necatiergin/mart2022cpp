@@ -290,8 +290,8 @@ _const_ anahtar sözcüğü _*_ atomunun solunda ise _"left-const"_ olarak nitel
 
 ### pointer to pointer ve const
 
-devam edecek
-
 ### const adresler ve tür dönüşümleri
 
 ### C ve C++ dilleri arasındaki farklılıklar
+### adres türleri & const ve tür eş isim bildirimleri 
+devam edecek
