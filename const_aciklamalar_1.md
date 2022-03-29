@@ -88,10 +88,11 @@ int main()
 	int x = 10;
 	int y = 20;
 
-	const int *ptr = &x; //ptr is a pointer to constr int
-	//int * const ptr = &x;  //ptr is a pointer to constr int
+	const int *ptr = &x; //ptr is a pointer to const int
+        ptr = &y; //geçerli
+
+	//int * const ptr = &x;  //ptr is a const pointer to int
 	//*ptr = 90;   //geçersiz
-	ptr = &y; //geçerli
 	//...
 }
 ```
